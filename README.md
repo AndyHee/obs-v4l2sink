@@ -45,7 +45,8 @@ git clone --recursive https://github.com/obsproject/obs-studio.git
 - Build plugins
 
 ```
-git clone https://github.com/CatxFish/obs-v4l2sink.git
+# GITHUB_USERNAME depends on whose fork of this project you're building
+git clone https://github.com/$GITHUB_USERNAME/obs-v4l2sink.git
 cd obs-v4l2sink
 mkdir build && cd build
 cmake -DLIBOBS_INCLUDE_DIR="../../obs-studio/libobs" -DCMAKE_INSTALL_PREFIX=/usr ..
