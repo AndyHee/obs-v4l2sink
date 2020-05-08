@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>V4l2sinkProperties</string>
+   <string>V4L2 Video Sink Properties</string>
   </property>
   <widget class="QPushButton" name="pushButton_start">
    <property name="geometry">
